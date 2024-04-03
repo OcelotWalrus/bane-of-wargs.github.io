@@ -1,0 +1,31 @@
+body {background-color: black; margin: 0;}
+a {color: #640000; text-decoration: none;}
+a:hover {color: white;}
+span {color: grey;}
+p {color: white}
+p.dialog {
+  margin-left: 1rem;
+  border-left: 2px solid grey;
+  padding-left: 1rem;
+  font-family: monospace;
+}
+div.header {
+  position: fixed;
+  background: #151515;
+/*   border-bottom: 3px solid #DDDDDD; */
+  z-index: 1;
+  width: 100%;
+  padding: .5rem;
+  text-align: center;
+  font-size: large;
+  font-family: sans-serif;
+}
+div.inner {
+  padding-top: 3rem;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	width: 620px;
+	font-size: large;
+}
