@@ -1,8 +1,15 @@
 body {background-color: black; margin: 0;}
-a {color: #640000; text-decoration: none;}
-a:hover {color: white;}
+img {padding-bottom: 40px}
+a {color: #06ec6d; text-decoration: none;}
+a:hover {color: #03fc94; text-decoration: underline;}
 span {color: grey;}
-p {color: white}
+p {
+  color: white;
+  font-size: large;
+  font-family: sans-serif;
+  text-align: center;
+  text-align: justify;
+}
 p.dialog {
   margin-left: 1rem;
   border-left: 2px solid grey;
@@ -12,7 +19,6 @@ p.dialog {
 div.header {
   position: fixed;
   background: #151515;
-/*   border-bottom: 3px solid #DDDDDD; */
   z-index: 1;
   width: 100%;
   padding: .5rem;
